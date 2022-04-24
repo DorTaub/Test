@@ -1,0 +1,21 @@
+.form1 {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: larger;
+	font-weight: bold;
+}
+section {
+	margin-left: 10%;
+}
+canvas {
+	border: 2px solid black;
+
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+	canvas {
+		margin-left: 100px;
+	}
+}
