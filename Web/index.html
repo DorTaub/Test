@@ -22,16 +22,17 @@
 			<div class="form1">
 				<form action="">
 					<div id="width">Width:</div>
-					<input id="widVal" type="text" required />
+					<input id="widVal" type="number" required />
 					<div id="height">Height:</div>
-					<input id="heiVal" type="text" required />
+					<input id="heiVal" type="number" required />
 					<div id="posX">Position(x):</div>
-					<input id="xVal" type="text" required />
+					<input id="xVal" type="number" required />
 					<div id="posY">Position(y):</div>
-					<input id="yVal" type="text" required />
+					<input id="yVal" type="number" min="1" max="300" required />
 
 					<br />
-					<div>Rectangle Area:</div>
+					<span>Rectangle Area:</span>
+					<span id="spanText">asdasdad</span>
 					<br />
 					<button id="calBtn" type="button" class="btn btn-success">
 						Calculate & Draw
